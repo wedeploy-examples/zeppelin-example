@@ -2,7 +2,7 @@
 
 # Apache Zeppelin
 
-An example of [Zeppelin](https://hub.docker.com/r/apache/zeppelin/). Add the following dependencies to your Spark interpreter to interface with a WeDeploy Data Service. The project provides a notebook environment which can be used to test the WeDeploy Android API to interact with your WeDeploy Data Service and more.
+An example of [Zeppelin](https://hub.docker.com/r/apache/zeppelin/). The project can provide a notebook environment which can be used to test the WeDeploy Android API to interact with your WeDeploy Data Service and more. Add the following dependencies to your Spark interpreter to interface with a WeDeploy Data Service:
 
 ```
 com.wedeploy:com.wedeploy.android:1.0.0
