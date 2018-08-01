@@ -6,7 +6,7 @@ An example of [Zeppelin](https://hub.docker.com/r/apache/zeppelin/). The project
 
 ```
 com.wedeploy:com.wedeploy.android:1.0.0
-com.netflix.feign:feign-okhttp:8.14.1
+com.squareup.okhttp3:okhttp:3.10.0
 org.json:json:20180130
 io.reactivex.rxjava2:rxjava:2.1.9
 ```
