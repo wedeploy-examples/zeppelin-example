@@ -1,14 +1,14 @@
 {
 	"id": "zeppelin",
   "image": "apache/zeppelin:0.8.0",
+  "port": 8080,
   "healthCheck": {
-		"interval": 10,
-		"retries": 30,
-		"startPeriod": 120,
-		"url": "localhost:8080/"
+		"url": "localhost:8080"
 	},
 	"volumes": {
-		"zeppelin": "/zeppelin"
+    "conf": "/zeppelin/conf",
+    "notebooks": "/zeppelin/notebooks",
+    "interpreter": "/zeppelin/interpreter"
 	},
 	"zeroDowntime": false
 }
