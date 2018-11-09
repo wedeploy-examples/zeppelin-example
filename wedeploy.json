@@ -1,6 +1,7 @@
 {
 	"id": "zeppelin",
-	"image": "apache/zeppelin:0.8.0",
+  "image": "apache/zeppelin:0.8.0",
+  "healthCheck": {
 		"interval": 10,
 		"retries": 30,
 		"startPeriod": 120,
